@@ -1,3 +1,12 @@
+/**
+ * Simple application entry point that demonstrates usage of the
+ * AmazonVan and Driver classes. It creates two vans/drivers, prints their
+ * state before and after calling some behaviors (deliver and breakDuration).
+ * 
+ * @author Violet Waskey
+ * @collaborator GitHub Copilot for javadoc comments
+ */
+
 public class App {
     public static void main(String[] args) throws Exception {
         
