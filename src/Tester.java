@@ -7,7 +7,7 @@
  * @collaborator GitHub Copilot for javadoc comments
  */
 
-public class App {
+public class Tester {
     public static void main(String[] args) throws Exception {
         
         Driver driver1 = new Driver("Violet", 3);
