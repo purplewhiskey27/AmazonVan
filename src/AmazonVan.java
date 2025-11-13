@@ -208,6 +208,17 @@ public class AmazonVan {
         vanName = newVanName;
     }
 
+    /**
+     * Simulates traffic delay by increasing the driver's tired level and
+     * decreasing the van's charge based on the duration of the traffic.
+     * @param trafficTime
+     */
+    public void traffic(int trafficTime)
+    {
+        driver.changeTiredLevel(driver.getTiredLevel() + trafficTime/3);
+        charge -= trafficTime/5.0;
+    }
+
         
     /**
      * Returns a multi-line string describing the van and its driver.
