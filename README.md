@@ -1,4 +1,13 @@
 # AmazonVan
+This code is abstracting an Amazon Van
+In the Amazon Van Class there are several attributes; license plate number, van name, charge level, a driver, number of packages, and whether the van is delivering
+In the driver class the driver has a name and a tiredness level
+
+There are getter and mutator methods for every attribute
+
+There are four behavior methods; charge up (automatically sets charge to 100%), deliver packages(charge goes down, package goes down, tired goes up), take a break to decrease tiredness, and traffic, which decreases charge and increases tiredness. 
+
+
 
 [AmazonVan Class Diagram.drawio](https://github.com/user-attachments/files/23487980/AmazonVan.Class.Diagram.drawio)
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
